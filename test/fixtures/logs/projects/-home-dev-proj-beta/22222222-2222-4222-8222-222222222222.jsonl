@@ -1,0 +1,1 @@
+{"type":"assistant","sessionId":"22222222-2222-4222-8222-222222222222","timestamp":"2026-11-21T09:00:00.000Z","uuid":"u-b-1","requestId":"req_b1","cwd":"/home/dev/proj-beta","version":"2.0.0","message":{"id":"msg_b1","role":"assistant","model":"claude-opus-4-1-20250805","usage":{"input_tokens":20,"output_tokens":7,"cache_creation_input_tokens":0,"cache_read_input_tokens":0}}}

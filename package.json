@@ -1,0 +1,29 @@
+{
+  "name": "usage-ledger",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tokens used per coding-agent session, readable by a person and by an orchestrator tool.",
+  "type": "module",
+  "bin": {
+    "usage-ledger": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "vitest run"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ccusage": "20.0.51"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "7.0.2",
+    "vitest": "5.1.1"
+  }
+}
